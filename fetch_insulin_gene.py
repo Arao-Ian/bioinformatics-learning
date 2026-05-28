@@ -1,7 +1,6 @@
 from Bio import Entrez, SeqIO
 
-# Tell NCBI who you are (required)
-Entrez.email = "your.email@example.com"   # Change this to your real email
+Entrez.email = "araoianarao@gmail.com"
 
 # Fetch a sample DNA sequence (Human Insulin gene fragment)
 handle = Entrez.efetch(db="nucleotide", id="NM_000207", rettype="fasta", retmode="text")
